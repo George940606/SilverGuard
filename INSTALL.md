@@ -17,6 +17,10 @@ pip install torch torchvision torchaudio
 # 2. 安裝最新的 Ultralytics (支援 YOLO26) 與影像工具
 pip install ultralytics opencv-python requests
 
+💡 Windows 組員注意：
+若組員電腦有 NVIDIA 顯卡，請他們改跑此指令：
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
 三、 驗證安裝與 YOLO26 測試
 請在終端機輸入 python，並貼上這段程式碼來確認硬體與模型是否就緒。
 import torch
