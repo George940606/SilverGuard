@@ -57,9 +57,13 @@ exit()
 ```bash
 conda deactivate
 ```
-* 重新進入：
+* 進入 SilverGuard 實驗室：
 ```bash
 conda activate silverguard
+```
+* 回到 Anaconda 大廳 (Base)：
+```bash
+conda activate base
 ```
 * 徹底移除環境 (砍掉重練)：
 ```bash
